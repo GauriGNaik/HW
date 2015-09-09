@@ -67,3 +67,9 @@ git revert HEAD
 ### Screenshot
 ![image](https://cloud.githubusercontent.com/assets/11006675/9763214/5bc9c24a-56d6-11e5-9140-4f0b1e72a2bf.png)
 
+### Hooks
+#### post-commit
+```
+#!/bin/bash
+open https://www.google.com
+```
